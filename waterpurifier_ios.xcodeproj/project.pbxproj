@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3514A10B3E5EB4EF3CE85F3B /* start_1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A4B80C8E5A93D00BC604 /* start_1242x2208.png */; };
+		3514A2ADECFD6B5DC16E72D9 /* start_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A3BFD92EA3C8BB9E35E2 /* start_640x960.png */; };
+		3514A389E13591B0F2BC1FEB /* ic_launcher_87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A37E8E48E0E9B3D743FF /* ic_launcher_87x87.png */; };
+		3514A3E7FB62268331FA1AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3514A8108F2FF2997EFC202A /* LaunchScreen.storyboard */; };
+		3514A4469639E7A7EB7F7B66 /* ic_launcher_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514AB6E57FF4B74EF5A29C0 /* ic_launcher_120x120.png */; };
+		3514A4EEB0732045826C8326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3514ABD4C865CCEEB370C1F5 /* Main.storyboard */; };
+		3514A53FE0C5EB0319E50710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3514A1754E0F113A372CD675 /* Assets.xcassets */; };
+		3514A6E088BE8A887975D3C5 /* ic_launcher_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A998267C4E95A48C825D /* ic_launcher_58x58.png */; };
+		3514A8A8A7E8E90B32F82673 /* ic_launcher_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A94BBD98062DFDA15EB9 /* ic_launcher_180x180.png */; };
+		3514A9A055FECF241A7B4150 /* start_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A433CE3930C7328ADC56 /* start_640x1136.png */; };
+		3514AA03B606B5A43F23D436 /* start_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A95B8087C83DE455C827 /* start_320x480.png */; };
+		3514AA83B9FE310E09A4B797 /* ic_launcher_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A672524FE0BAB7AC2DDE /* ic_launcher_80x80.png */; };
+		3514AD4557CF8586A5B7FB5A /* start_750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A39BE491047D69176832 /* start_750x1334.png */; };
+		3514AE1181181104CD46E3F3 /* ic_launcher_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514AB4DBB4BCBD90009D81D /* ic_launcher_60x60.png */; };
+		3514AE908C9C4B57FDD64DBF /* ic_launcher_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A2D9D5B55267FE046D48 /* ic_launcher_40x40.png */; };
+		FD8486211E038426009F6F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486201E038426009F6F10 /* main.m */; };
+		FD8486241E038426009F6F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486231E038426009F6F10 /* AppDelegate.m */; };
+		FD8486271E038426009F6F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486261E038426009F6F10 /* ViewController.m */; };
+		FD84863A1E038427009F6F10 /* waterpurifier_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486391E038427009F6F10 /* waterpurifier_iosTests.m */; };
+		FD8486451E038427009F6F10 /* waterpurifier_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486441E038427009F6F10 /* waterpurifier_iosUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD8486361E038427009F6F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8486141E038426009F6F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD84861B1E038426009F6F10;
+			remoteInfo = waterpurifier_ios;
+		};
+		FD8486411E038427009F6F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD8486141E038426009F6F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD84861B1E038426009F6F10;
+			remoteInfo = waterpurifier_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3514A1754E0F113A372CD675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3514A1E323B98202623A78CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = waterpurifier_ios/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		3514A2D9D5B55267FE046D48 /* ic_launcher_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_40x40.png; sourceTree = "<group>"; };
+		3514A37E8E48E0E9B3D743FF /* ic_launcher_87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_87x87.png; sourceTree = "<group>"; };
+		3514A39108BB47431734A667 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		3514A39BE491047D69176832 /* start_750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_750x1334.png; sourceTree = "<group>"; };
+		3514A3BFD92EA3C8BB9E35E2 /* start_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_640x960.png; sourceTree = "<group>"; };
+		3514A433CE3930C7328ADC56 /* start_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_640x1136.png; sourceTree = "<group>"; };
+		3514A4B80C8E5A93D00BC604 /* start_1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_1242x2208.png; sourceTree = "<group>"; };
+		3514A4FD6F73874828BAE28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = waterpurifier_ios/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		3514A672524FE0BAB7AC2DDE /* ic_launcher_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_80x80.png; sourceTree = "<group>"; };
+		3514A94BBD98062DFDA15EB9 /* ic_launcher_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_180x180.png; sourceTree = "<group>"; };
+		3514A95B8087C83DE455C827 /* start_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_320x480.png; sourceTree = "<group>"; };
+		3514A998267C4E95A48C825D /* ic_launcher_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_58x58.png; sourceTree = "<group>"; };
+		3514AB4DBB4BCBD90009D81D /* ic_launcher_60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_60x60.png; sourceTree = "<group>"; };
+		3514AB6E57FF4B74EF5A29C0 /* ic_launcher_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_120x120.png; sourceTree = "<group>"; };
+		FD84861C1E038426009F6F10 /* waterpurifier_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterpurifier_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8486201E038426009F6F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD8486221E038426009F6F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD8486231E038426009F6F10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD8486251E038426009F6F10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD8486261E038426009F6F10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD8486351E038427009F6F10 /* waterpurifier_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterpurifier_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8486391E038427009F6F10 /* waterpurifier_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waterpurifier_iosTests.m; sourceTree = "<group>"; };
+		FD84863B1E038427009F6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8486401E038427009F6F10 /* waterpurifier_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterpurifier_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8486441E038427009F6F10 /* waterpurifier_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waterpurifier_iosUITests.m; sourceTree = "<group>"; };
+		FD8486461E038427009F6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD8486191E038426009F6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8486321E038427009F6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84863D1E038427009F6F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3514A80D4230C3DF4E4974C7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3514A95B8087C83DE455C827 /* start_320x480.png */,
+				3514A3BFD92EA3C8BB9E35E2 /* start_640x960.png */,
+				3514A433CE3930C7328ADC56 /* start_640x1136.png */,
+				3514A39BE491047D69176832 /* start_750x1334.png */,
+				3514A4B80C8E5A93D00BC604 /* start_1242x2208.png */,
+				3514AB6E57FF4B74EF5A29C0 /* ic_launcher_120x120.png */,
+				3514A672524FE0BAB7AC2DDE /* ic_launcher_80x80.png */,
+				3514A37E8E48E0E9B3D743FF /* ic_launcher_87x87.png */,
+				3514A2D9D5B55267FE046D48 /* ic_launcher_40x40.png */,
+				3514A998267C4E95A48C825D /* ic_launcher_58x58.png */,
+				3514A94BBD98062DFDA15EB9 /* ic_launcher_180x180.png */,
+				3514AB4DBB4BCBD90009D81D /* ic_launcher_60x60.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3514AC3C75345BD972849F0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3514A80D4230C3DF4E4974C7 /* images */,
+				3514A1754E0F113A372CD675 /* Assets.xcassets */,
+				3514ABD4C865CCEEB370C1F5 /* Main.storyboard */,
+				3514A8108F2FF2997EFC202A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD8486131E038426009F6F10 = {
+			isa = PBXGroup;
+			children = (
+				FD84861E1E038426009F6F10 /* waterpurifier_ios */,
+				FD8486381E038427009F6F10 /* waterpurifier_iosTests */,
+				FD8486431E038427009F6F10 /* waterpurifier_iosUITests */,
+				FD84861D1E038426009F6F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD84861D1E038426009F6F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD84861C1E038426009F6F10 /* waterpurifier_ios.app */,
+				FD8486351E038427009F6F10 /* waterpurifier_iosTests.xctest */,
+				FD8486401E038427009F6F10 /* waterpurifier_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD84861E1E038426009F6F10 /* waterpurifier_ios */ = {
+			isa = PBXGroup;
+			children = (
+				FD8486221E038426009F6F10 /* AppDelegate.h */,
+				FD8486231E038426009F6F10 /* AppDelegate.m */,
+				FD8486251E038426009F6F10 /* ViewController.h */,
+				FD8486261E038426009F6F10 /* ViewController.m */,
+				FD84861F1E038426009F6F10 /* Supporting Files */,
+				3514AC3C75345BD972849F0F /* Resources */,
+			);
+			path = waterpurifier_ios;
+			sourceTree = "<group>";
+		};
+		FD84861F1E038426009F6F10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD8486201E038426009F6F10 /* main.m */,
+				3514A39108BB47431734A667 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD8486381E038427009F6F10 /* waterpurifier_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD8486391E038427009F6F10 /* waterpurifier_iosTests.m */,
+				FD84863B1E038427009F6F10 /* Info.plist */,
+			);
+			path = waterpurifier_iosTests;
+			sourceTree = "<group>";
+		};
+		FD8486431E038427009F6F10 /* waterpurifier_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD8486441E038427009F6F10 /* waterpurifier_iosUITests.m */,
+				FD8486461E038427009F6F10 /* Info.plist */,
+			);
+			path = waterpurifier_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD84861B1E038426009F6F10 /* waterpurifier_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD8486491E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_ios" */;
+			buildPhases = (
+				FD8486181E038426009F6F10 /* Sources */,
+				FD8486191E038426009F6F10 /* Frameworks */,
+				FD84861A1E038426009F6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterpurifier_ios;
+			productName = waterpurifier_ios;
+			productReference = FD84861C1E038426009F6F10 /* waterpurifier_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD8486341E038427009F6F10 /* waterpurifier_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84864C1E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_iosTests" */;
+			buildPhases = (
+				FD8486311E038427009F6F10 /* Sources */,
+				FD8486321E038427009F6F10 /* Frameworks */,
+				FD8486331E038427009F6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD8486371E038427009F6F10 /* PBXTargetDependency */,
+			);
+			name = waterpurifier_iosTests;
+			productName = waterpurifier_iosTests;
+			productReference = FD8486351E038427009F6F10 /* waterpurifier_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD84863F1E038427009F6F10 /* waterpurifier_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84864F1E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_iosUITests" */;
+			buildPhases = (
+				FD84863C1E038427009F6F10 /* Sources */,
+				FD84863D1E038427009F6F10 /* Frameworks */,
+				FD84863E1E038427009F6F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD8486421E038427009F6F10 /* PBXTargetDependency */,
+			);
+			name = waterpurifier_iosUITests;
+			productName = waterpurifier_iosUITests;
+			productReference = FD8486401E038427009F6F10 /* waterpurifier_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD8486141E038426009F6F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Bin Shen";
+				TargetAttributes = {
+					FD84861B1E038426009F6F10 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGXA77XL6T;
+						ProvisioningStyle = Automatic;
+					};
+					FD8486341E038427009F6F10 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGXA77XL6T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD84861B1E038426009F6F10;
+					};
+					FD84863F1E038427009F6F10 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VGXA77XL6T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD84861B1E038426009F6F10;
+					};
+				};
+			};
+			buildConfigurationList = FD8486171E038426009F6F10 /* Build configuration list for PBXProject "waterpurifier_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD8486131E038426009F6F10;
+			productRefGroup = FD84861D1E038426009F6F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD84861B1E038426009F6F10 /* waterpurifier_ios */,
+				FD8486341E038427009F6F10 /* waterpurifier_iosTests */,
+				FD84863F1E038427009F6F10 /* waterpurifier_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD84861A1E038426009F6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3514A53FE0C5EB0319E50710 /* Assets.xcassets in Resources */,
+				3514A4EEB0732045826C8326 /* Main.storyboard in Resources */,
+				3514A3E7FB62268331FA1AAA /* LaunchScreen.storyboard in Resources */,
+				3514AA03B606B5A43F23D436 /* start_320x480.png in Resources */,
+				3514A2ADECFD6B5DC16E72D9 /* start_640x960.png in Resources */,
+				3514A9A055FECF241A7B4150 /* start_640x1136.png in Resources */,
+				3514AD4557CF8586A5B7FB5A /* start_750x1334.png in Resources */,
+				3514A10B3E5EB4EF3CE85F3B /* start_1242x2208.png in Resources */,
+				3514A4469639E7A7EB7F7B66 /* ic_launcher_120x120.png in Resources */,
+				3514AA83B9FE310E09A4B797 /* ic_launcher_80x80.png in Resources */,
+				3514A389E13591B0F2BC1FEB /* ic_launcher_87x87.png in Resources */,
+				3514AE908C9C4B57FDD64DBF /* ic_launcher_40x40.png in Resources */,
+				3514A6E088BE8A887975D3C5 /* ic_launcher_58x58.png in Resources */,
+				3514A8A8A7E8E90B32F82673 /* ic_launcher_180x180.png in Resources */,
+				3514AE1181181104CD46E3F3 /* ic_launcher_60x60.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8486331E038427009F6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84863E1E038427009F6F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD8486181E038426009F6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8486271E038426009F6F10 /* ViewController.m in Sources */,
+				FD8486241E038426009F6F10 /* AppDelegate.m in Sources */,
+				FD8486211E038426009F6F10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD8486311E038427009F6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84863A1E038427009F6F10 /* waterpurifier_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84863C1E038427009F6F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8486451E038427009F6F10 /* waterpurifier_iosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD8486371E038427009F6F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD84861B1E038426009F6F10 /* waterpurifier_ios */;
+			targetProxy = FD8486361E038427009F6F10 /* PBXContainerItemProxy */;
+		};
+		FD8486421E038427009F6F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD84861B1E038426009F6F10 /* waterpurifier_ios */;
+			targetProxy = FD8486411E038427009F6F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3514A8108F2FF2997EFC202A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3514A4FD6F73874828BAE28D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3514ABD4C865CCEEB370C1F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3514A1E323B98202623A78CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD8486471E038427009F6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD8486481E038427009F6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD84864A1E038427009F6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD84864B1E038427009F6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD84864D1E038427009F6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterpurifier_ios.app/waterpurifier_ios";
+			};
+			name = Debug;
+		};
+		FD84864E1E038427009F6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterpurifier_ios.app/waterpurifier_ios";
+			};
+			name = Release;
+		};
+		FD8486501E038427009F6F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = waterpurifier_ios;
+			};
+			name = Debug;
+		};
+		FD8486511E038427009F6F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VGXA77XL6T;
+				INFOPLIST_FILE = waterpurifier_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waterpurifier.waterpurifier-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = waterpurifier_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD8486171E038426009F6F10 /* Build configuration list for PBXProject "waterpurifier_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8486471E038427009F6F10 /* Debug */,
+				FD8486481E038427009F6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD8486491E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84864A1E038427009F6F10 /* Debug */,
+				FD84864B1E038427009F6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84864C1E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84864D1E038427009F6F10 /* Debug */,
+				FD84864E1E038427009F6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84864F1E038427009F6F10 /* Build configuration list for PBXNativeTarget "waterpurifier_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8486501E038427009F6F10 /* Debug */,
+				FD8486511E038427009F6F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD8486141E038426009F6F10 /* Project object */;
+}
