@@ -6,5 +6,4 @@
 #import "BaseNavPage.h"
 
 @interface LoginPage : BaseNavPage<UITextFieldDelegate>
-
 @end

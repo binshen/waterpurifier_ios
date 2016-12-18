@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3514A09E089346DC49944711 /* RegisterPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514ABDA5346F44FBBA8CB0E /* RegisterPage.m */; };
 		3514A0CCC46FFCA0245C3324 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514A4970F3F4FF47203F6E1 /* SDWebImageDownloaderOperation.m */; };
 		3514A10B3E5EB4EF3CE85F3B /* start_1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A4B80C8E5A93D00BC604 /* start_1242x2208.png */; };
 		3514A15F6F60D9B31C0B6D3A /* UILabel+DynamicFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514AAC7F8AAAC88120F117E /* UILabel+DynamicFrame.m */; };
@@ -129,6 +130,7 @@
 		3514A1C53A3102E358E63F2B /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		3514A1E323B98202623A78CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = waterpurifier_ios/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		3514A2187A5631FD784F94D4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		3514A2335377FC93A2337B3E /* RegisterPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPage.h; sourceTree = "<group>"; };
 		3514A26CC894FBA30EBBFD55 /* DeviceInfoWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoWidget.h; sourceTree = "<group>"; };
 		3514A2D9D5B55267FE046D48 /* ic_launcher_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_40x40.png; sourceTree = "<group>"; };
 		3514A2E1093043C8E7849279 /* BottomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomButtonView.m; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		3514ABAE200E4FEA84A7AE2D /* NSMutableDictionary+MKNKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+MKNKAdditions.m"; sourceTree = "<group>"; };
 		3514ABB20E05EE98667CB73F /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		3514ABC6E5B53E1FAFAF938D /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		3514ABDA5346F44FBBA8CB0E /* RegisterPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPage.m; sourceTree = "<group>"; };
 		3514AC02AF365EF58908D305 /* MKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKObject.h; sourceTree = "<group>"; };
 		3514AC1E17E18DBAEC69BEC2 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		3514AC2983598BCD6459A84A /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 			children = (
 				3514A8C7373444AF44ABA07C /* LoginPage.m */,
 				3514A088619EE082CC460B0B /* LoginPage.h */,
+				3514ABDA5346F44FBBA8CB0E /* RegisterPage.m */,
+				3514A2335377FC93A2337B3E /* RegisterPage.h */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -899,6 +904,7 @@
 				3514AD073D681FCFF73EDC93 /* NSDate+Util.m in Sources */,
 				3514AC3349D1847756C2FC28 /* ResultInfo.m in Sources */,
 				3514A3B5E0AE34817AE24DFD /* ResponseInfo.m in Sources */,
+				3514A09E089346DC49944711 /* RegisterPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,9 +5,9 @@
 
 #import "LoginPage.h"
 #import "GloriaLabel.h"
+#import "RegisterPage.h"
 
-@interface LoginPage ()
-{
+@interface LoginPage() {
     UIButton * nomalLoginBtn;
     UITextField * userPhoneTextField;
     UITextField * userPwdTextFeild;
@@ -187,9 +187,9 @@
 
 -(void)registAction
 {
-//    // 调转注册界面操作
-//    RegistPage * registPage = [[RegistPage alloc] initIsFirstPage:NO];
-//    [self.navigationController pushViewController:registPage animated:YES];
+    // 调转注册界面操作
+    RegisterPage * registerPage = [[RegisterPage alloc] initIsFirstPage:NO];
+    [self.navigationController pushViewController:registerPage animated:YES];
 }
 
 -(void)fogotPwdAction
