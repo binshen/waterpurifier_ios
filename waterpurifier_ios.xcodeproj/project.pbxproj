@@ -89,7 +89,6 @@
 		3514AFA45D258E50CE63CF85 /* MKNetworkHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514AE2CA7010EECD4769A25 /* MKNetworkHost.m */; };
 		FD8486211E038426009F6F10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486201E038426009F6F10 /* main.m */; };
 		FD8486241E038426009F6F10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486231E038426009F6F10 /* AppDelegate.m */; };
-		FD8486271E038426009F6F10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486261E038426009F6F10 /* ViewController.m */; };
 		FD84863A1E038427009F6F10 /* waterpurifier_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486391E038427009F6F10 /* waterpurifier_iosTests.m */; };
 		FD8486451E038427009F6F10 /* waterpurifier_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8486441E038427009F6F10 /* waterpurifier_iosUITests.m */; };
 /* End PBXBuildFile section */
@@ -268,8 +267,6 @@
 		FD8486201E038426009F6F10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD8486221E038426009F6F10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD8486231E038426009F6F10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD8486251E038426009F6F10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD8486261E038426009F6F10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD8486351E038427009F6F10 /* waterpurifier_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterpurifier_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8486391E038427009F6F10 /* waterpurifier_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waterpurifier_iosTests.m; sourceTree = "<group>"; };
 		FD84863B1E038427009F6F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -646,8 +643,6 @@
 			children = (
 				FD8486221E038426009F6F10 /* AppDelegate.h */,
 				FD8486231E038426009F6F10 /* AppDelegate.m */,
-				FD8486251E038426009F6F10 /* ViewController.h */,
-				FD8486261E038426009F6F10 /* ViewController.m */,
 				FD84861F1E038426009F6F10 /* Supporting Files */,
 				3514AC3C75345BD972849F0F /* Resources */,
 				3514A344BABEB0A23ECF3461 /* Controller */,
@@ -837,7 +832,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8486271E038426009F6F10 /* ViewController.m in Sources */,
 				FD8486241E038426009F6F10 /* AppDelegate.m in Sources */,
 				FD8486211E038426009F6F10 /* main.m in Sources */,
 				3514A90900213A1E88F3EDC2 /* BaseNavCtrl.m in Sources */,
