@@ -55,6 +55,7 @@
 		3514AA03B606B5A43F23D436 /* start_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A95B8087C83DE455C827 /* start_320x480.png */; };
 		3514AA58D8C893437B152116 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514AD9040D125D273821CCC /* SBJsonWriter.m */; };
 		3514AA83B9FE310E09A4B797 /* ic_launcher_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3514A672524FE0BAB7AC2DDE /* ic_launcher_80x80.png */; };
+		3514AA969817FF95B92AB29B /* WPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514A241E6DEB2CDE31E7D7C /* WPTextField.m */; };
 		3514AA9B670B1461FEC5F24C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514AE4D1AFCEE5C3C8DCDDB /* UIImage+MultiFormat.m */; };
 		3514AA9F5EBE605D64159977 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514AE672AA97F7AB7A26765 /* SBJsonStreamWriterState.m */; };
 		3514AAA09FD639BF76B40A53 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3514ADF39A4B461A541BC655 /* SBJsonStreamParser.m */; };
@@ -131,6 +132,7 @@
 		3514A1E323B98202623A78CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = waterpurifier_ios/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		3514A2187A5631FD784F94D4 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		3514A2335377FC93A2337B3E /* RegisterPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPage.h; sourceTree = "<group>"; };
+		3514A241E6DEB2CDE31E7D7C /* WPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTextField.m; sourceTree = "<group>"; };
 		3514A26CC894FBA30EBBFD55 /* DeviceInfoWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoWidget.h; sourceTree = "<group>"; };
 		3514A2D9D5B55267FE046D48 /* ic_launcher_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher_40x40.png; sourceTree = "<group>"; };
 		3514A2E1093043C8E7849279 /* BottomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomButtonView.m; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 		3514AD21A5B47439CC330A3B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		3514AD42FDBB136A0C6BB05D /* ResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseInfo.h; sourceTree = "<group>"; };
 		3514AD681F125FACAF2DC8F4 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		3514AD7F0D175D2970E48056 /* WPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTextField.h; sourceTree = "<group>"; };
 		3514AD8CFAAA6CB06FC42DCF /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		3514AD9040D125D273821CCC /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		3514ADA625CFCC1C313960D7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -351,6 +354,8 @@
 				3514AB3793CBDDB10B13603B /* UIExpand */,
 				3514AED6EC9D9B2898F06107 /* Widget */,
 				3514A5B5BA6AC5A42C15592E /* UICustom */,
+				3514A241E6DEB2CDE31E7D7C /* WPTextField.m */,
+				3514AD7F0D175D2970E48056 /* WPTextField.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -905,6 +910,7 @@
 				3514AC3349D1847756C2FC28 /* ResultInfo.m in Sources */,
 				3514A3B5E0AE34817AE24DFD /* ResponseInfo.m in Sources */,
 				3514A09E089346DC49944711 /* RegisterPage.m in Sources */,
+				3514AA969817FF95B92AB29B /* WPTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

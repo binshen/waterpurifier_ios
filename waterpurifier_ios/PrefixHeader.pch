@@ -31,4 +31,6 @@
 #import "MKNetworkHost.h"
 #import "MBProgressHUD.h"
 
+#import "WPTextField.h"
+
 #endif /* PrefixHeader_pch */
